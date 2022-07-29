@@ -9,17 +9,27 @@
     margin:10px auto;
     width: 80%;
     
-    background-color:plum;
+    background-color:rgb(183, 229, 245);
     height:100vh;
 }
 
+
+header{
+    color:darkblue;
+}
+
+
 nav{
-    padding:0px 50px;
+    padding:20px;
     display: flex;
     justify-content: space-between;
 }
 
-#search-bar{
+.search{
+    padding-right: 10px;
+}
+
+.search-bar{
     border:none;
     border-radius: 5px 0px 0px 5px;
     outline: none;
@@ -40,3 +50,43 @@ nav{
 .searchButton i{
     color:white;
 }
+
+.weather-results{
+    margin-top:20px;
+    padding:40px;
+    display: flex;
+}
+
+.weather-card{
+    padding:10px;
+    border: 1px solid red;
+    width:20%;
+    height:300px;
+}
+
+
+.logo{
+    margin:20px 50px;
+    width: 8rem;
+    
+}
+
+.info{
+    padding:10px;
+}
+
+.info .degree{
+    font-size: 40px;
+    font-weight:bold;
+}
+
+
+
+.logo img{
+    width: 100%;
+}
+
+.date{
+    font-weight: bold;
+}
+
